@@ -19,7 +19,7 @@ class ProductList extends Component  {
 
         return vacancies.map(
             vacancy => {
-                const link = `zarplata.ru${vacancy.url}`;
+                const link = `https://www.zarplata.ru${vacancy.url}`;
                 return (
                     <Grid.Column
                         computer={4}
