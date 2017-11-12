@@ -39,7 +39,7 @@ export function getVacanciesList(limit) {
 
         const request = axios({
             method: 'GET',
-            url: `https://api.zp.ru/v1/vacancies?limit=${limit}`,
+            url: `https://api.zp.ru/v1/vacancies?limit=${limit}&q=Программист`,
             headers: []
         });
 

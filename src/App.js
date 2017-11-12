@@ -7,7 +7,7 @@ import logo from './bitcoin.svg';
 import './App.css';
 
 const panes = [
-    { menuItem: 'Программа', render: () => <Tab.Pane attached={false}><Product /></Tab.Pane> },
+    { menuItem: 'Вакансии', render: () => <Tab.Pane attached={false}><Product /></Tab.Pane> },
     { menuItem: 'Документация', render: () => <Tab.Pane attached={false}><Documentation /></Tab.Pane> },
     { menuItem: 'Авторы', render: () => <Tab.Pane attached={false}><Authors /></Tab.Pane> }
 ];
