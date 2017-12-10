@@ -39,7 +39,7 @@ export default class AccordionExampleStyled extends Component {
 
         return (
             <div>
-                <Header className="centered" as='h2'>Документация для ProgrammName</Header>
+                <Header className="centered" as='h2'>FAQ</Header>
                 <Accordion fluid styled>
                     {this.renderAccordion(activeIndex)}
                 </Accordion>

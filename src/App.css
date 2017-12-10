@@ -5,10 +5,11 @@
 
 .App-header {
   text-align: center;
-  background-color: #222;
-  height: 150px;
+  background-color: #345675;
+  height: 250px;
   padding: 20px;
   color: white;
+  letter-spacing: 2px;
 }
 
 .App-intro {
@@ -25,7 +26,22 @@
 }
 
 .link:hover {
-  color: #4183c4
+  color: #4183c4;
+}
+
+.App-homepage {
+  font-size: 27px;
+  text-align: center;
+  line-height: 2;
+}
+
+.item .description {
+  font-size: 1.3em !important;
+}
+
+.item .extra {
+  color: #4183c4 !important;
+  font-size: 1.3em !important;
 }
 
 @media (min-width: 800px) {
