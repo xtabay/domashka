@@ -49,9 +49,3 @@ export function getVacanciesList(limit) {
         );
     }
 }
-
-    /*return fetch(`https://api.zp.ru/v1/vacancies?limit=${limit}`, { method: 'GET' })
-        .then(resp => {return resp.json()})
-        .then(vacancies => ({ type: GET_VACANCIES_LIST, vacancies }))
-        .catch(err => ({ type: GET_VACANCIES_LIST, err }));
-    //return { type: GET_VACANCIES_LIST, list }*/
