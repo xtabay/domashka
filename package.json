@@ -8,7 +8,7 @@
     "es6-promise": "^4.1.1",
     "immutable": "^3.8.2",
     "isomorphic-fetch": "^2.2.1",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.13",
     "react": "^16.0.0",
     "react-css-modules": "^4.7.1",
     "react-dom": "^16.0.0",
