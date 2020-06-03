@@ -19,6 +19,14 @@ const Home = (props) => (
 );
 
 class App extends Component {
+    componentDidMount() {
+        setInterval(() => {
+            window.parent.postMessage('kekek');
+            window.postMessage('keks');
+            console.log(123);
+        }, 1000);
+    }
+
     render() {
         return (
             <div>
